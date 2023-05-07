@@ -28,5 +28,5 @@ def delete_nth(array, n):
         if counts[i] < n:
             result.append(i)
             counts[i] += 1
-
+  
     return result
